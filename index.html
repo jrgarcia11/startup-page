@@ -52,8 +52,12 @@ ul{
 	 -webkit-transition: opacity 0.4s ease-in; /*fade out timer*/
    -moz-transition: opacity 0.4s ease-in;
 }
-li a:hover {
-   background: #000;
+li a.bloo:hover {
+   background: #95D5F5;
+	 color: #fff;
+}
+li a.redd:hover {
+   background: #C8543B;
 	 color: #fff;
 }
 li a:hover~img{
@@ -67,7 +71,7 @@ li a:hover~img{
 <div class="container" style=float:left;>
 <ul>
 	<li>
-				<a href="https://twitter.com/" onmouseover="this.style.background='blue';" onmouseout="this.style.color='';">
+				<a href="https://twitter.com/" class="bloo">
 					TWITTER</a>
 				<img src="http://i.imgur.com/vgnoULX.png" class="logoFade"/>
 				<img src="http://i.imgur.com/QyNMxga.png" class="topGradientFade"/>
